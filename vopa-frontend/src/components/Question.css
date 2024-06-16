@@ -1,0 +1,38 @@
+
+
+/* Question.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9f9898;
+  font-weight: 200;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 200px;
+  max-width: 40rem;
+  margin: 25px auto;
+}
+
+.questionfont {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+
+/* Responsive styles using Tailwind CSS */
+@media screen and (max-width: 640px) {
+  .question-container {
+    
+    max-height: 80vw;
+    min-width: 80vw;
+  }
+
+  .questionfont {
+    font-size: 2rem;
+  }
+}

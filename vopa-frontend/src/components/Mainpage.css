@@ -1,0 +1,133 @@
+.container {
+    max-width: 800px; /* Set maximum width for the content */
+    margin: auto; /* Center align the container */
+    padding: 20px; /* Add padding around the container */
+    font-family: Arial, sans-serif; /* Set a default font family */
+  }
+  
+  .result-container {
+    margin-top: 20px; /* Margin above the result table */
+  }
+  
+  .speech-text {
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .speech-text textarea {
+    width: 100%; /* Full width for textarea */
+    padding: 10px; /* Padding inside textarea */
+    font-size: 16px; /* Font size for textarea */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .speech-text button {
+    background-color: #007bff; /* Blue background for button */
+    color: white; /* White text color for button */
+    font-weight: bold; /* Bold font weight */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside button */
+    margin-top: 10px; /* Margin above button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .speech-text button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .result-container button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text color for button */
+    font-weight: bold; /* Bold font weight */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside button */
+    margin-top: 10px; /* Margin above button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .result-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .result-container p {
+    font-size: 18px; /* Font size for completion message */
+    text-align: center; /* Center align completion message */
+  }
+  
+  .question-container {
+    margin-bottom: 20px; /* Margin below question and speech text components */
+  }
+  
+  .question-container h2 {
+    font-size: 24px; /* Font size for question heading */
+    margin-bottom: 10px; /* Bottom margin for question heading */
+  }
+  
+  .question-container p {
+    font-size: 18px; /* Font size for question text */
+    margin-bottom: 20px; /* Bottom margin for question text */
+  }
+  
+  .speech-text {
+    margin-top: 20px; /* Margin above speech text component */
+  }
+  
+  .speech-text textarea {
+     /* Full width for textarea */
+    padding: 10px; /* Padding inside textarea */
+    font-size: 16px; /* Font size for textarea */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .speech-text button {
+    background-color: #007bff; /* Blue background for button */
+    color: white; /* White text color for button */
+    font-weight: bold; /* Bold font weight */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside button */
+    margin-top: 10px; /* Margin above button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .speech-text button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

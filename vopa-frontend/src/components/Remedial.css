@@ -1,0 +1,138 @@
+/* General styles
+.homework-page {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .homework-page h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .homework-page h2 {
+    color: #333;
+  }
+  
+  .homework-page p {
+    color: #666;
+  }
+  
+  .homework-page ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .homework-page ul li {
+    margin-bottom: 10px;
+  }
+  
+  .homework-page ul li strong {
+    color: #333;
+  }
+  
+  .homework-page ul li ul {
+    padding-left: 20px;
+  }
+  
+  .homework-page ul li ul li {
+    color: #666;
+  }
+  
+  .homework-page a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .homework-page a:hover {
+    text-decoration: underline;
+  }
+   */
+
+
+   .app {
+    text-align: center; /* Center align content */
+    padding: 20px; /* Add padding around content */
+  }
+  
+  .videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between videos */
+    padding: 10px; /* Padding around videos */
+    overflow-x: auto; /* Allow horizontal scrolling if videos overflow */
+  }
+  
+  .videos-container iframe {
+    width: 300px; /* Adjust width of each video */
+    height: 200px; /* Adjust height of each video */
+  }
+  
+  .tips-container {
+    margin-top: 20px; /* Add margin at the top of tips container */
+  }
+  
+  .tips-container h2 {
+    font-size: 24px; /* Font size for tips heading */
+    margin-bottom: 10px; /* Bottom margin for tips heading */
+  }
+  
+  .tips-container ul {
+    list-style-type: disc; /* Use bullet points for list */
+    text-align: left; /* Left align list items */
+  }
+  
+  .tips-container li {
+    font-size: 18px; /* Font size for list items */
+    margin-bottom: 8px; /* Bottom margin for list items */
+  }
+
+
+  .app {
+    text-align: center; /* Center align content */
+    padding: 20px; /* Add padding around content */
+  }
+  
+  .videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between videos */
+    padding: 10px; /* Padding around videos */
+    overflow-x: auto; /* Allow horizontal scrolling if videos overflow */
+  }
+  
+  .videos-container iframe {
+    width: 300px; /* Adjust width of each video */
+    height: 200px; /* Adjust height of each video */
+  }
+  
+  .tips-container {
+    margin-top: 20px; /* Add margin at the top of tips container */
+  }
+  
+  .tips-container h2 {
+    font-size: 24px; /* Font size for tips heading */
+    margin-bottom: 10px; /* Bottom margin for tips heading */
+  }
+  
+  .tips-container ul {
+    list-style-type: disc; /* Use bullet points for list */
+    text-align: left; /* Left align list items */
+  }
+  
+  .tips-container li {
+    font-size: 18px; /* Font size for list items */
+    margin-bottom: 8px; /* Bottom margin for list items */
+  }
+  
+  .app h1 {
+    font-size: 36px; /* Increase font size of h1 */
+    font-weight: bold; /* Make h1 bold */
+  }
+  
+  
+

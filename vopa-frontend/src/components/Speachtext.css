@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  color: rgb(96 101 123);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255 255 255);
+}
+
+.container {
+  padding: 5vw;
+}
+
+h2 {
+  color: rgb(43 45 56);
+  text-align: center;
+  font-size: 3.5vw;
+  letter-spacing: -0.2px;
+  font-family: "Merriweather", serif;
+}
+
+p {
+  max-width: 50rem;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 8vw;
+}
+
+.main-content {
+  min-width: 40rem;
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+  resize: none;
+  box-shadow: 0 5vw 12vw 0px rgb(109 117 141 / 20%);
+  background: rgb(255 255 255);
+  border: 0.5vw solid rgb(231 233 245);
+  border-radius: 1.6vw;
+}
+
+.main-content:focus {
+  border: 0.3vw solid rgb(43, 45, 56, 0.3);
+  outline: none;
+}
+
+p,
+.main-content {
+  font-size: 1.8vw;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.6;
+}
+
+.btn-style {
+  display: flex;
+}
+
+button {
+  background-color: #080e08;
+  border: none;
+  color: white;
+  padding: 1.2vw 2.4vw;
+  font-size: 1.6vw;
+  cursor: pointer;
+  border-radius: 1vw;
+  transition: background-color 0.3s ease;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+
+button:hover {
+  background-color: #2b2d2c;
+}
+
+button:focus {
+  box-shadow: 0 0 0.8vw rgba(65, 64, 64, 0.3);
+}
+
+.counter-container {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 2vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 1.6vw;
+    word-spacing: normal;
+    margin-bottom: 4vw;
+    margin-top: 1.5vw;
+  }
+
+  .main-content {
+    font-size: 1.6vw;
+    word-spacing: normal;
+  }
+
+  button {
+    padding: 1.2vw 2.8vw;
+    font-size: 1.6vw;
+    margin-top: -7vw;
+  }
+
+  .counter-container {
+    flex-direction: column;
+  }
+
+  .counter-container p:first-child {
+    margin-bottom: 0;
+  }
+}
+
+.nextbutton {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(-35%);
+  background-color: rgb(6, 134, 92);
+}
+
+@media screen and (max-width: 414px) {
+  h2 {
+    font-size: 6vw;
+  }
+
+  p {
+    font-size: 3vw;
+    margin-bottom: 8vw;
+    margin-top: 2vw;
+  }
+
+  .main-content {
+    border-radius: 5vw;
+  }
+
+  button {
+    padding: 2vw 3vw;
+    font-size: 3vw;
+    margin-top: -15vw;
+  }
+}
+

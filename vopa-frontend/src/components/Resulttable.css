@@ -1,0 +1,44 @@
+.container {
+    margin-top: 50px; /* Adjust top margin */
+  }
+  
+  h2 {
+    text-align: center; /* Center-align the heading */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Margin above the table */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd; /* Border style for table headers and cells */
+    padding: 8px; /* Padding inside table cells */
+    text-align: left; /* Left-align text in cells */
+  }
+  
+  .table thead {
+    background-color: #343a40; /* Dark background for table header */
+    color: white; /* Text color for table header */
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa; /* Alternate row background color */
+  }
+  
+  .table-success {
+    background-color: #d4edda !important; /* Background color for correct answers */
+  }
+  
+  .table-danger {
+    background-color: #f8d7da !important; /* Background color for incorrect answers */
+  }
+  
+  .font-weight-bold {
+    font-weight: bold; /* Bold font weight for accuracy percentage */
+    text-align: right; /* Right-align accuracy percentage */
+    margin-top: 20px; /* Margin top for accuracy percentage */
+  }
+  
